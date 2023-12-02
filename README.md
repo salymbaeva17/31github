@@ -1,1 +1,1 @@
-The "31 days on Github" contest started today(29.11)
+The "31 days on Github" challenge started today(29.11)
