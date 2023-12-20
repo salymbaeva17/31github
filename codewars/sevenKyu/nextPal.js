@@ -1,16 +1,16 @@
 function nextPal(val) {
     do {
-        val++;
-    } while(!isPalindrome(val))
-    return val;
+        val++
+    } while (!isPalindrome(val))
+    return val
 }
 
-function isPalindrome(num) {
-    return num === reverseNum(num);
+function isPalindrome(n) {
+    return n === reverseNum(n)
 }
 
-function reverseNum(num) {
-    return parseInt(num.toString().split('').reverse().join(''));
+function reverseNum(n) {
+    return +n.toString().split('').reverse().join``
 }
 
 console.log(nextPal(11))
