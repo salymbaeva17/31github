@@ -1,0 +1,6 @@
+const timeForMilkAndCookies = date => {
+    return date.getDate() === 24 && date.getMonth() === 11
+}
+console.log(timeForMilkAndCookies(new Date(2013, 11, 24)))
+console.log(timeForMilkAndCookies(new Date(2013, 0, 23)))
+console.log(timeForMilkAndCookies(new Date(3000, 11, 24)))
