@@ -4,3 +4,4 @@ function arrayMadness(a, b) {
 
 console.log(arrayMadness([3,4,6],[2,3,4]))
 console.log(arrayMadness([4,5,6],[1,2,3]))
+
